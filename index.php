@@ -30,24 +30,24 @@ $name = "Dave";
 /* 03: create a variable called num and set it equal to 1984
    Output the variable
 */
-
+$num = 1984;
 
 /* 04: create a variable called dbl and set it equal to 99.956
    Output the variable
 */
-
+$dbl = 99.956;
 
 /* 05: create a variable called bool and set it equal to true
    Output the variable - might not be what you expect!
 */
-
+$bool = true;
 
 /* 06: create a variable called band and set it equal to "Van Halen"
    Concatenate band and the num variable you created above to
    output the phrase:
    "1984 is my fave Van Halen album."
 */
-
+$band = "Van Halen";
 
 /* 07: create an array called names.
   Put the names "Jane", "John", and "Jody" in the array
@@ -118,10 +118,10 @@ $name = "Dave";
         <ol>
             <li id="1"><?php echo "Hello World!" ?></li>
             <li id="2"><?php echo $name ?></li>
-            <li id="3"><?php /* #3 output here */ ?></li>
-            <li id="4"><?php /* #4 output here */ ?></li>
-            <li id="5"><?php /* #5 output here */ ?></li>
-            <li id="6"><?php /* #6 output here */ ?></li>
+            <li id="3"><?php echo $num ?></li>
+            <li id="4"><?php echo $dbl ?></li>
+            <li id="5"><?php echo $bool ?></li>
+            <li id="6"><?php echo "$num is my favorite $band album" ?></li>
             <li id="7"><?php /* #7 output here */ ?></li>
             <li id="8"><?php /* #8 output here */ ?></li>
             <li id="9"><?php /* #9 output here */ ?></li>
