@@ -53,7 +53,7 @@ $band = "Van Halen";
   Put the names "Jane", "John", and "Jody" in the array
   Output "John" from the array
 */
-
+$names = "Jane", "John", "Jody";
 
 /* 08: define a constant variable called COURSE.
    Assign COURSE the value of "INF653"
