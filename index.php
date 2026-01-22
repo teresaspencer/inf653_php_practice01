@@ -53,25 +53,26 @@ $band = "Van Halen";
   Put the names "Jane", "John", and "Jody" in the array
   Output "John" from the array
 */
-$names = "Jane", "John", "Jody";
+$names = array('Jane', 'John', 'Jody');
 
 /* 08: define a constant variable called COURSE.
    Assign COURSE the value of "INF653"
    Output the constant variable
 */
-
+define('COURSE', 'INF653');
 
 /* 09: create a variable called myNum and set it equal to 50.  
     Add 16 to the variable myNum using a compound operator _when_ 
     you output the new value
 */
-
+$myNum = 50;
 
 /* 10: create a variable called lastNum and set it equal to 99. 
     Use the decrement operator to subtract 1 from lastNum. 
     Output the new value
 */
-
+$lastNum = 99;
+$lastNum--;
 
 ?>
 <html>
@@ -121,11 +122,11 @@ $names = "Jane", "John", "Jody";
             <li id="3"><?php echo $num ?></li>
             <li id="4"><?php echo $dbl ?></li>
             <li id="5"><?php echo $bool ?></li>
-            <li id="6"><?php echo "$num is my favorite $band album" ?></li>
-            <li id="7"><?php /* #7 output here */ ?></li>
-            <li id="8"><?php /* #8 output here */ ?></li>
-            <li id="9"><?php /* #9 output here */ ?></li>
-            <li id="10"><?php /* #10 output here */ ?></li>
+            <li id="6"><?php echo "$num is my fave $band album." ?></li>
+            <li id="7"><?php echo $names[1] ?></li>
+            <li id="8"><?php echo COURSE ?></li>
+            <li id="9"><?php echo $myNum + 16 ?></li>
+            <li id="10"><?php echo $lastNum ?></li>
         </ol>
     </main>
 
